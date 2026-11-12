@@ -1,0 +1,109 @@
+:root {
+--rosa: #fe4971;
+--blanco: white;
+--gris-claro:#F3F3F3;
+--gris: #7f7f7f;
+--gris-oscuro: #333;
+--tipografia: 'Poppins', sans-serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-size: 16px;
+font-family: var(--tipografia);
+color: var(--gris-oscuro);
+line-height: 1.2;
+background-color: var(--gris-claro);
+}
+
+.ancho {
+max-width: 1200px;
+}
+
+.centrar {
+margin: auto;
+}
+
+main {
+text-align: center;
+margin: 0px auto 30px auto;
+padding: 30px 0px;
+}
+
+main h2 {
+color: var(--rosa);
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+main h1 {
+font-size: 50px;
+font-weight: lighter;
+}
+
+main h1 span {
+font-weight: bold;
+}
+
+.linea {
+height: 5px;
+width: 80px;
+background-color: var(--rosa);
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.contenedor {
+gap: 30px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.tarjeta {
+background-color: var(--blanco);
+}
+
+.tarjeta figure {
+width: 100%;
+}
+
+.tarjeta figure img {
+width: 100%;
+display: block;
+}
+
+.tarjeta .text-tarjeta {
+padding: 20px;
+text-transform: uppercase;
+}
+
+.text-tarjeta h3 {
+font-size: 28px;
+margin-bottom: 10px;
+}
+
+.text-tarjeta p {
+color: var(--gris);
+margin-bottom: 20px;
+}
+
+.text-tarjeta hr {
+width: 90%;
+height: 1px;
+margin-bottom: 20px;
+background-color: var(--gris);
+}
+
+.redes_sociales {
+display: flex;
+font-size: 20px;
+color: var(--gris);
+align-items: center;
+justify-content: space-evenly;
+}
